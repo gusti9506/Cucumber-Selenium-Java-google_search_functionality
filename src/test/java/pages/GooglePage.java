@@ -23,7 +23,6 @@ public class GooglePage extends BasePage {
     }
 
     public void clickBotonOrEnter() throws InterruptedException {
-        //EL TREAD.SLEEP ES IMPRECINDIBLE PARA ELIJir EL TEXTO DEl listado= "list.contains("qa automation tester")
 
         Thread.sleep(5000);
         List <WebElement> list = driver.findElements(By.xpath("//ul[@role='listbox']//li/descendant::div[@class='wM6W7d']"));
